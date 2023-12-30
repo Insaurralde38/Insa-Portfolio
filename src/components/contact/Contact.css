@@ -31,12 +31,12 @@
   
   #contact .hello p {
     font-size: 1.2rem;
-    font-family: 'Raleway', normal;
+    font-family: 'Raleway', sans-serif;
     color: #444F5A
   }
   
   #contact .label {
-    font-family: 'Raleway', normal;
+    font-family: 'Raleway', sans-serif;
     color: #444F5A
   }
   
@@ -57,7 +57,7 @@
   
   .small_label {
     font-size: 0.8rem;
-    font-family: 'Raleway', normal;
+    font-family: 'Raleway', sans-serif;
   }
   
   .spinner-border {

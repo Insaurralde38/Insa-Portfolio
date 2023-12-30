@@ -11,7 +11,7 @@ header #header {
   background: #103F79;
   box-shadow: 0 3px 6px rgba(162, 161, 166, 0.2);
   color: #F3B229;
-  font-family: 'Raleway', normal;
+  font-family: 'Raleway', sans-serif;
 }
 
 @media screen and (min-width: 992px) {
