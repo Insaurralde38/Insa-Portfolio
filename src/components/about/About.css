@@ -1,0 +1,73 @@
+  #about .container > .row {
+    @media screen and (min-width: 992px) {
+      height: min(800px, 68vh);
+    }
+  }
+  
+  #about #about_section h1 {
+    font-family: 'Doctor Glitch', sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #444F5A
+  }
+
+  #about #about_section p {
+    font-size: 1.25rem;
+    font-family: 'Raleway', sans-serif;
+    color: #444F5A;
+    text-align: justify;
+    margin-right: 2rem;
+  }
+  
+  #about #skills_section {
+    @media screen and (min-width: 992px) {
+      margin-top: -17%;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-top: 0;
+    }
+  }
+  
+  #about #skills_section h1 {
+    font-family: 'Doctor Glitch', sans-serif;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    color: #444F5A
+  }
+  
+  #about #skills_section img {
+    margin-left: 3rem;
+    height: 2rem;
+    transition: 0.4s all ease-in-out;
+  }
+  
+  #about #skills_section img:hover {
+    transform: scale(1.1);
+  }
+  
+  @media screen and (min-width: 768px) {
+    #about #skills_section img {
+      height: 2.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    #about #skills_section img {
+      height: 3rem;
+    }
+  }
+  
+  #about #skills_section span {
+    font-style: italic;
+    font-weight: 500;
+    margin-left: 0.6rem;
+    color: #444F5A
+  }
+  
+  #about #skills_section .col-6 {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+  }  

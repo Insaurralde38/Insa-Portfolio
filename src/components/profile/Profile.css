@@ -1,0 +1,134 @@
+/* Finger Paint */
+@font-face {
+  font-family: 'Finger Paint';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/finger_paint.woff2') format('woff2'),
+    url('../src/assets/fonts/finger_paint.woff2') format('woff2');
+}
+
+/* Doctor Glitch */
+@font-face {
+  font-family: 'Doctor Glitch';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Doctor_Glitch.otf') format('otf'),
+    url('../src/assets/fonts/Doctor_Glitch.otf') format('otf');
+}
+
+/* Raleway - Normal 400 */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/raleway_normal_400.woff2') format('woff2'),
+    url('../src/assets/fonts/raleway_normal_400.woff2') format('woff2');
+}
+
+/* Raleway - Italic 500 */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/raleway_italic_500.woff2') format('woff2'),
+    url('../src/assets/fonts/raleway_italic_500.woff2') format('woff2');
+}
+@media screen and (min-width: 992px) {
+  #hero .container > .row {
+    height: 80vh;
+ }
+}
+#hero section h1 {
+  font-family: 'Doctor Glitch', sans-serif;
+  font-size: 4rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.2;
+  color: #444F5A
+}
+#hero section p {
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  color: #444F5A
+}
+#hero section p span {
+  color: #0564BD;
+}
+#hero section .social-links {
+  width: 50%;
+  min-width: 200px;
+  text-align: left;
+}
+#hero section .social-links a {
+  text-decoration: none;
+}
+#hero section .social-links a i {
+  font-size: 2rem;
+  transition: 0.4s all ease-in-out;
+  color: #444F5A;
+}
+#hero section .social-links a i:hover {
+  color: #0564BD;
+}
+#hero section .social-links a svg {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 0.8rem;
+  fill: #444F5A;
+  transition: 0.4s all ease-in-out;
+}
+#hero section .social-links a svg:hover {
+  fill: #0564BD;
+}
+#hero .img-container {
+  overflow: hidden;
+  min-width: 16rem;
+  width: 90%;
+  aspect-ratio: 1;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 3rem;
+}
+@media screen and (min-width: 992px) {
+  #hero .img-container {
+    max-width: none;
+    margin-top: 0;
+ }
+}
+#hero .img-container #canvas {
+  width: 100%;
+  height: 100%;
+}
+#hero .img-container canvas {
+  width: 100%;
+  height: 100%;
+  border-radius: 39% 61% 71% 29% / 38% 29% 71% 62%;
+}
+#hero .img-container .curtain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#hero .img-container .curtain img {
+  display: none;
+}
+#hero .img-container .no-curtains .curtain {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .img-container .no-curtains .curtain img {
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

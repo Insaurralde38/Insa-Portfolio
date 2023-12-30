@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local("Agustina Regular"),
+    url("../../assets/fonts/Agustina.woff") format("woff");
+}
+
+header #header {
+  background: #103F79;
+  box-shadow: 0 3px 6px rgba(162, 161, 166, 0.2);
+  color: #F3B229;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (min-width: 992px) {
+  header #header .navbar-brand {
+    max-width: 37%;
+  }
+
+  header #header #toggleMobileMenu {
+    max-width: fit-content;
+  }
+}
+
+header #header .nav-link {
+  position: relative;
+  width: fit-content;
+  color: #F3B229;
+  font-size: 1.2rem;
+}
+
+header #header .nav-link::before {
+  content: '';
+  height: 2px;
+  width: 0;
+  background-color: #F3B229;
+  transition: 0.4s all ease-in-out;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header #header .nav-link:hover::before {
+  width: 70%;
+}
+
+header #header .nav-link.active {
+  color: #FFFFFF;
+}
+
+.container .logo {
+  display: block;
+  flex: none;
+  float: left;
+  font-size: 1.9em;
+  text-decoration: none;
+  line-height: normal;
+}
+
+.container .logo-name {
+  font-family: "Agustina Regular";
+  font-weight: 500;
+  color: #F3B229;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 10px;
+}
+.grey-color {
+  color: #FFFFFF;
+}
+
+header #header .navbar-toggler {
+  border-color: #F3B229;
+}
+
+header #header .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243,178,41, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
