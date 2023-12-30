@@ -1,13 +1,3 @@
-/* Finger Paint */
-@font-face {
-  font-family: 'Finger Paint';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/fonts/finger_paint.woff2') format('woff2'),
-    url('../src/assets/fonts/finger_paint.woff2') format('woff2');
-}
-
 /* Doctor Glitch */
 @font-face {
   font-family: 'Doctor Glitch';
@@ -51,7 +41,7 @@
 }
 #hero section p {
   font-size: 1.5rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', normal;
   color: #444F5A
 }
 #hero section p span {

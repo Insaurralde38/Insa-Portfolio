@@ -45,7 +45,7 @@
   #portfolio .project .details p {
     padding-left: 5%;
     padding-right: 5%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', normal;
   }
   
   @media screen and (min-width: 992px) {
@@ -95,7 +95,7 @@
   #portfolio p {
     padding-left: 5%;
     padding-right: 5%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', normal;
   }
 
   @media screen and (min-width: 992px) {
