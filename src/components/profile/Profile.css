@@ -9,24 +9,24 @@
 }
 
 /* Raleway - Normal 400 */
-@font-face {
+/* @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/raleway_normal_400.woff2') format('woff2'),
     url('../src/assets/fonts/raleway_normal_400.woff2') format('woff2');
-}
+} */
 
 /* Raleway - Italic 500 */
-@font-face {
+/* @font-face {
   font-family: 'Raleway';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/raleway_italic_500.woff2') format('woff2'),
     url('../src/assets/fonts/raleway_italic_500.woff2') format('woff2');
-}
+} */
 @media screen and (min-width: 992px) {
   #hero .container > .row {
     height: 80vh;
