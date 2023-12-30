@@ -20,6 +20,18 @@
     margin-top: 1rem;
     color: #444F5A
   }
+
+  @media screen and (max-width: 768px) {
+    #contact h1 {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    #contact .hello {
+      text-align: center;
+    }
+  }
   
   #contact .hello span {
     display: block;
@@ -27,6 +39,12 @@
     font-weight: 500;
     font-family: 'Doctor Glitch', sans-serif;
     color: #444F5A
+  }
+
+  @media screen and (max-width: 768px) {
+    #contact .hello span {
+      font-size: 1.5rem;
+    }
   }
   
   #contact .hello p {

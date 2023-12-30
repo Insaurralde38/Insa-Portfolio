@@ -1,70 +1,72 @@
 #footer {
-    background-color: #103F79;
-    padding: 2.5rem 0;
-  }
-  
+  background-color: #103F79;
+  padding: 2.5rem 0;
+}
+
+#footer .row {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer .row div:first-child {
+  color: #F3B229;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: 'Raleway', sans-serif;
+  order: 2;
+  margin-top: 1.5rem;
+}
+
+#footer .row div:first-child .author {
+  position: relative;
+  font-style: italic;
+  font-weight: 600;
+}
+
+#footer .row div:last-child {
+  text-align: right;
+  font-size: 2rem;
+  order: 1;
+}
+
+#footer .row div:last-child a {
+  color: #F3B229;
+  transition: 0.4s all ease-in-out;
+}
+
+#footer .row div:last-child svg path {
+  fill: #F3B229;
+  transition: 0.4s all ease-in-out;
+}
+
+#footer .row div:last-child a:hover {
+  color: #FFFFFF;
+}
+
+#footer .row div:last-child svg:hover path {
+  fill: #FFFFFF;
+}
+
+#footer .row div:last-child a:nth-child(2),
+#footer .row div:last-child svg path:nth-child(2) {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+@media screen and (min-width: 992px) {
   #footer .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
   }
-  
+
   #footer .row div:first-child {
-    color: #F3B229;
-    text-align: center;
-    font-size: 1.1rem;
-    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    order: 1;
+    margin-bottom: 0;
   }
-  
-  #footer .row div:first-child .author {
-    position: relative;
-    font-style: italic;
-    font-weight: 600;
-  }
-  
-  /* #footer .row div:first-child a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: currentColor;
-  } */
-  
+
   #footer .row div:last-child {
-    margin-top: 1rem;
     text-align: right;
-    font-size: 2rem;
+    margin-top: 0;
+    order: 2;
   }
-  
-  #footer .row div:last-child a {
-    color: #F3B229;
-    transition: 0.4s all ease-in-out;
-  }
-
-  #footer .row div:last-child svg path {
-    fill: #F3B229;
-    transition: 0.4s all ease-in-out;
-  }
-  
-  #footer .row div:last-child a:hover {
-    color: #FFFFFF;
-  }
-
-  #footer .row div:last-child svg:hover path {
-    fill: #FFFFFF;
-  }
-
-  #footer .row div:last-child a:nth-child(2),
-  #footer .row div:last-child svg path:nth-child(2) {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-  
-  @media screen and (min-width: 992px) {
-    #footer .row div:first-child {
-      text-align: left;
-    }
-  
-    #footer .row div:last-child {
-      text-align: right;
-      margin-top: 0;
-    }
-  }
+}

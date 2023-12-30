@@ -57,7 +57,6 @@ const Contact = () => {
     const spinner = document.querySelector('.spinner-border');
     const charCounter = document.querySelector('.valid-feedback');
 
-    // Get client location
     let location;
     const IP_API_KEY = import.meta.env.VITE_IP_API_KEY;
     const IP_API = `https://api.ipregistry.co/?key=${IP_API_KEY}`;
@@ -68,10 +67,8 @@ const Contact = () => {
       location = `${payload.location.country.flag.emoji} ${payload.location.city}, ${payload.location.latitude} ${payload.location.longitude}`;
     } catch (error) {
       console.error('Error fetching location:', error);
-      // Handle the error as needed
     }
 
-    // Set up emailjs
     const EMAILJS_ID = import.meta.env.VITE_EMAILJS_ID;
     const CONTACT_SERVICE = import.meta.env.VITE_CONTACT_SERVICE;
     const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
@@ -90,7 +87,6 @@ const Contact = () => {
       },
     };    
 
-    // Send email
     try {
       const response = await fetch(EMAIL_API, {
         method: 'POST',

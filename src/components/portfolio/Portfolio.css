@@ -9,6 +9,12 @@
     font-size: 2.5rem;
     color: #444F5A
   }
+
+  @media screen and (max-width: 768px) {
+    #portfolio h1 {
+      font-size: 2rem;
+    }
+  }
   
   #portfolio .project {
     position: relative;
