@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { About, Contact, Footer, NavBar, Portfolio, Profile } from './components/index';
-import './App.css';
 
 function App() {
 

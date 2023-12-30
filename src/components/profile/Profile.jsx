@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Curtains, Plane, Vec2 } from 'curtainsjs';
 import Typed from 'typed.js';
 import profileImage from '../../assets/insa.png';
-import './profile.css';
+import './Profile.css';
 
 function Profile() {
 
