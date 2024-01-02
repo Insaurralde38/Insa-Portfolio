@@ -13,15 +13,10 @@ function App() {
   return (
     <div>
       <NavBar/>
-      <div></div>
       <Profile/>
-      <div></div>
       <About/>
-      <div></div>
       <Portfolio/>
-      <div></div>
       <Contact/>
-      <div></div>
       <Footer/>
     </div>
   )
