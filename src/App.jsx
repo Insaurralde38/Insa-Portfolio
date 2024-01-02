@@ -12,12 +12,24 @@ function App() {
 
   return (
     <div>
-      <NavBar/>
-      <Profile/>
+      <div>
+        <NavBar />
+      </div>
+      <div>
+        <Profile/>
+      </div>
+      <div>
       <About/>
+      </div>
+      <div>
       <Portfolio/>
+      </div>
+      <div>
       <Contact/>
+      </div>
+      <div>
       <Footer/>
+      </div>
     </div>
   )
 }
