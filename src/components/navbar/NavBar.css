@@ -8,12 +8,12 @@
 }
 
 @font-face {
-  font-family: 'Doctor Glitch';
+  font-family: "Doctor Glitch";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/Doctor_Glitch.woff') format('woff'),
-    url('../src/assets/fonts/Doctor_Glitch.woff') format('woff');
+  src: url("/fonts/Doctor_Glitch.woff") format("woff"),
+    url("../src/assets/fonts/Doctor_Glitch.woff") format("woff");
 }
 
 header #header {
