@@ -5,7 +5,7 @@
 }
 
 #about #about_section h1 {
-  font-family: 'Doctor Glitch', sans-serif;
+  font-family: 'Doctor Glitch', normal;
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2.5rem;
@@ -41,7 +41,7 @@
 }
 
 #about #skills_section h1 {
-  font-family: 'Doctor Glitch', sans-serif;
+  font-family: 'Doctor Glitch', normal;
   text-align: center;
   margin-bottom: 3rem;
   font-size: 2.5rem;
