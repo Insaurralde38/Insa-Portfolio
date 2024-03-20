@@ -97,4 +97,8 @@
     width: 4rem;
     margin-top: 1rem;
   }
+
+  #footer .row div:last-child {
+    margin-top: 1rem;
+  }
 }
