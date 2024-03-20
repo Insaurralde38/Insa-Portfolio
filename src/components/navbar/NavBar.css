@@ -7,21 +7,20 @@
     url("../../assets/fonts/Agustina.woff") format("woff");
 }
 
+@font-face {
+  font-family: 'Doctor Glitch';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Doctor_Glitch.otf') format('otf'),
+    url('../src/assets/fonts/Doctor_Glitch.otf') format('otf');
+}
+
 header #header {
   background: #103F79;
   box-shadow: 0 3px 6px rgba(162, 161, 166, 0.2);
   color: #F3B229;
   font-family: 'Raleway', sans-serif;
-}
-
-@media screen and (min-width: 992px) {
-  header #header .navbar-brand {
-    max-width: 37%;
-  }
-
-  header #header #toggleMobileMenu {
-    max-width: fit-content;
-  }
 }
 
 header #header .nav-link {
@@ -61,12 +60,6 @@ header #header .nav-link.active {
   line-height: normal;
 }
 
-@media screen and (max-width: 768px) {
-  .container .logo {
-    font-size: 1.5em;
-  }
-}
-
 .container .logo-name {
   font-family: "Agustina Regular";
   font-weight: 500;
@@ -85,4 +78,19 @@ header #header .navbar-toggler {
 
 header #header .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243,178,41, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media screen and (min-width: 992px) {
+  header #header .navbar-brand {
+    max-width: 37%;
+  }
+  header #header #toggleMobileMenu {
+    max-width: fit-content;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container .logo {
+    font-size: 1.5em;
+  }
 }

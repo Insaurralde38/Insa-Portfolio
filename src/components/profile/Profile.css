@@ -1,36 +1,9 @@
-/* Doctor Glitch */
-@font-face {
-  font-family: 'Doctor Glitch';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/fonts/Doctor_Glitch.otf') format('otf'),
-    url('../src/assets/fonts/Doctor_Glitch.otf') format('otf');
-}
-
-@media screen and (min-width: 992px) {
-  #hero .container > .row {
-    height: 80vh;
- }
-}
 #hero section h1 {
   font-family: 'Doctor Glitch', sans-serif;
   font-size: 4rem;
   margin-bottom: 0.8rem;
   line-height: 1.2;
   color: #444F5A
-}
-
-@media screen and (max-width: 768px) {
-  #hero section h1 {
-    font-size: 3rem;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  #hero section h1 {
-    font-size: 2.6rem;
-  }
 }
 
 #hero section p {
@@ -87,13 +60,6 @@
   margin-top: 3rem;
 }
 
-@media screen and (min-width: 992px) {
-  #hero .img-container {
-    max-width: none;
-    margin-top: 0;
- }
-}
-
 #hero .img-container #canvas {
   width: 100%;
   height: 100%;
@@ -130,4 +96,26 @@
   min-height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+@media screen and (min-width: 992px) {
+  #hero .container > .row {
+    height: 80vh;
+  }
+  #hero .img-container {
+    max-width: none;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #hero section h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #hero section h1 {
+    font-size: 2.6rem;
+  }
 }
