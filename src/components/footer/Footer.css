@@ -14,16 +14,28 @@
   font-size: 1.1rem;
   font-family: 'Raleway', sans-serif;
   order: 2;
-  margin-top: 1.5rem;
+  margin-top: 0.7rem;
+}
+
+#footer .row div:first-child .heart {
+  height: 1.1rem;
+  width: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+#footer .row div:first-child .chimp {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-left: 0.1rem;
 }
 
 #footer .row div:first-child .author {
   position: relative;
-  font-style: italic;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #footer .row div:last-child {
+  margin-top: 2rem;
   text-align: right;
   font-size: 2rem;
   order: 1;

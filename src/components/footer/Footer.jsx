@@ -1,4 +1,5 @@
 import './Footer.css'
+import { chimp, heart } from '../../assets/index'
 
 function Footer() {
   return (
@@ -6,7 +7,7 @@ function Footer() {
       <div className="container">
         <div className="row row-cols-1 row-cols-lg-2">
           <div>
-            Made with 💙💛💙, By&nbsp;<span className="author">DIEGO INSAURRALDE </span> 🐒
+            Made with <img className="heart" alt="heart" src={heart} ></img> by&nbsp;<span className="author">DIEGO INSAURRALDE </span><img className="chimp" alt="chimp" src={chimp} ></img>
           </div>
           <div className="text-center text-lg-end">
             <a href="https://www.linkedin.com/in/djinsaurralde38/" target="_blank">

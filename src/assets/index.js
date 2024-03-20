@@ -1,4 +1,6 @@
 import insa from './insa.png'
+import chimp from './boke-chimp.png'
+import heart from './boke-heart.png'
 
 import portfolioImage01 from './portfolio/rick-and-morty.png'
 import portfolioImage02 from './portfolio/pokemon.png'
@@ -33,4 +35,4 @@ import tailwind from './stack-icons/tailwind.svg'
 import typescript from './stack-icons/typescript.svg'
 import vite from './stack-icons/vite.svg'
 
-export { astro, audition, bootstrap, csharp, css, express, git, github, html, illustrator, insa, javascript, materialui, mercadopago, next, node, office, photoshop,portfolioImage01, portfolioImage02, portfolioImage03, portfolioImage04, postgresql, react, redux, sass, sequelize, sqlite, tailwind, typescript, vite }
+export { astro, audition, bootstrap, chimp, csharp, css, express, git, github, heart, html, illustrator, insa, javascript, materialui, mercadopago, next, node, office, photoshop,portfolioImage01, portfolioImage02, portfolioImage03, portfolioImage04, postgresql, react, redux, sass, sequelize, sqlite, tailwind, typescript, vite }
