@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url('/fonts/Doctor_Glitch.otf') format('opentype'),
-    url('../src/assets/fonts/Doctor_Glitch.otf') format('opentype');
+  src: url('/fonts/DoctorGlitch.otf') format('opentype'),
+    url('../src/assets/fonts/DoctorGlitch.otf') format('opentype');
 }
 
 header #header {
