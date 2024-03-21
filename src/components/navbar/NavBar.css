@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Agustina Regular";
+  font-family: 'Agustina Regular';
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: local("Agustina Regular"),
-    url("../../assets/fonts/Agustina.woff") format("woff");
+  src: local('Agustina Regular'),
+    url('../../assets/fonts/Agustina.woff') format('woff');
 }
 
 @font-face {
@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/Doctor_Glitch.otf') format('otf'),
-    url('../src/assets/fonts/Doctor_Glitch.otf') format('otf');
+  src: url('/fonts/Doctor_Glitch.otf') format('opentype'),
+    url('../src/assets/fonts/Doctor_Glitch.otf') format('opentype');
 }
 
 header #header {
