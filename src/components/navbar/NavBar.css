@@ -11,9 +11,9 @@
   font-family: 'Doctor Glitch';
   font-style: normal;
   font-weight: 400;
-  font-display: block;
+  font-display: swap;
   src: url('/fonts/DoctorGlitch.otf') format('opentype'),
-    url('../src/assets/fonts/DoctorGlitch.otf') format('opentype');
+    url('../../assets/fonts/DoctorGlitch.otf') format('opentype');
 }
 
 header #header {
