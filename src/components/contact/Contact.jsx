@@ -198,7 +198,7 @@ const Contact = () => {
                         className={`form-control ${isValid.message ? 'is-valid' : (message && 'is-invalid')}`}
                         rows="5"
                         maxLength="400"
-                        style={{ maxHeight: '300px', minHeight: '200px' }}
+                        style={{ maxHeight: '300px', minHeight: '200px', resize: 'none' }}
                         value={message}
                         onChange={(e) => {
                           setMessage(e.target.value)

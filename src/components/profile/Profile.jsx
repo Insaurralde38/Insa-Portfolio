@@ -249,7 +249,7 @@ function Profile() {
               <div className="img-container" id="img-wrapper" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="2000" data-aos-once="true" >
                 <div id="canvas">
                 <div className="curtain">
-                  <img src={profileImage} crossorigin="" data-sampler="simplePlaneTexture" width="400" height="400" alt="Insa" />
+                  <img src={profileImage} crossorigin="" data-sampler="simplePlaneTexture" alt="Insa" />
                 </div>
               </div>
               </div>
