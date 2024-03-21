@@ -116,6 +116,28 @@
 
 @media screen and (max-width: 576px) {
   #hero section h1 {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
+  }
+
+  #hero section p {
+    font-size: 1.2rem;
+  }
+
+  #hero section .social-links a i {
+    font-size: 2.5rem;
+  }
+
+  #hero section .social-links a svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.9rem;
+  }
+
+  #hero .container {
+    margin-top: 1rem;
+  }
+
+  #hero .img-container {
+    margin-top: 2rem;
   }
 }

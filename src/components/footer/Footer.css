@@ -86,7 +86,7 @@
 
 @media screen and (max-width: 768px) {
   #footer .row div:first-child {
-    font-size: 0.85rem;
+    font-size: 0.87rem;
     margin-top: 1rem;
   }
   
@@ -100,5 +100,17 @@
 
   #footer .row div:last-child {
     margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #footer .row div:last-child {
+    margin-top: 0rem;
+    font-size: 2.75rem;
+  }
+
+  #footer .row div:last-child svg {
+    height: 2.75rem;
+    width: 2.75rem;
   }
 }

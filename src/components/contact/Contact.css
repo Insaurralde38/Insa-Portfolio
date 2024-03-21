@@ -2,9 +2,9 @@
   margin-bottom: 2rem;
 }
 
-#contact .container > .row {
+/* #contact .container > .row {
   height: 130vh;
-}
+} */
 
 #contact h1 {
   font-family: 'Doctor Glitch', sans-serif;
@@ -63,6 +63,7 @@ button.btn[disabled] {
 }
 #contact .custom-color {
   color: #103F79;
+  font-size: 1.25rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -80,5 +81,21 @@ button.btn[disabled] {
   }
   #contact .hello span {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #contact .more_info p {
+    font-size: 1.3rem;
+    margin-top: -2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  #contact .custom-color {
+    font-size: 1.7rem;
+  }
+
+  #contact .contact_form {
+    margin-top: -2rem;
   }
 }

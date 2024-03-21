@@ -121,8 +121,8 @@ const Contact = () => {
               <span>HAVE AN IDEA? 🤔</span>
               <p>Let's make it real! 🤓</p>
               <div className="mt-5 more_info">
-                <p><i className="bi bi-geo-alt custom-color me-2 fs-5"></i>Buenos Aires, ARGENTINA ⭐⭐⭐</p>
-                <p><i className="bi bi-envelope-fill custom-color me-2 fs-5"></i>djinsaurralde38@gmail.com</p>
+                <p><i className="bi bi-geo-alt custom-color me-2"></i>Buenos Aires, ARGENTINA ⭐⭐⭐</p>
+                <p><i className="bi bi-envelope-fill custom-color me-2"></i>djinsaurralde38@gmail.com</p>
               </div>
             </div>
             <div className="contact_form col-12 col-lg-8 d-grid align-content-center">
