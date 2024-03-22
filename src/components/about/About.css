@@ -1,3 +1,13 @@
+#about .container {
+  align-items: center;
+  display: flex;
+  height: 68vh;
+}
+
+#about #about_section {
+  height: 25.375rem;
+}
+
 #about #about_section h1 {
   font-family: 'Doctor Glitch', sans-serif;
   text-align: center;
@@ -63,7 +73,6 @@
 @media screen and (min-width: 992px) {
   #about .container > .row {
     height: min(800px, 80vh);
-    margin-bottom: 2rem;
   }
 }
 
@@ -85,6 +94,15 @@
 }
 
 @media screen and (max-width: 576px) {
+  #about .container {
+    align-items: center;
+    display:grid;
+    height: 88.5rem;
+    margin-top: 0rem;
+  }
+  #about #about_section {
+    height: 45.5rem;
+  }
   #about #about_section p {
     font-size: 1.25rem;
     margin-right: 1rem;
