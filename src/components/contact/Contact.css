@@ -81,6 +81,9 @@ button.btn[disabled] {
 }
 
 @media screen and (max-width: 576px) {
+  #contact {
+    margin-top: -2rem;
+  }
   #contact h1 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
