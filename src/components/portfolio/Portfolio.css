@@ -98,6 +98,7 @@ border-color: #103F79;
 color: #103F79;
 transition: 0.4s all ease-in-out;
 }
+
 #portfolio .custom-btn:hover {
   background-color: #103F79;
   color: #F3B229;

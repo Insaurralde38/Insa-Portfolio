@@ -1,7 +1,7 @@
 #about .container {
   align-items: center;
   display: flex;
-  height: 68vh;
+  height: 58vh;
 }
 
 #about #about_section {
@@ -62,6 +62,12 @@
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 1366px) {
+  #about .container {
+    margin-bottom: 85px;
+  }
 }
 
 @media screen and (min-width: 1200px) {

@@ -104,27 +104,24 @@
 
 @media screen and (max-width: 1366px) {
   #hero .container {
-    margin-top: 5.375rem;
-    margin-bottom: 5.375rem;
+    height: 31.938rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+  }
+  #hero section {
+    margin-top: -2rem;
   }
   #hero section h1 {
     font-size: 4rem;
-  }  
+  }
   #hero section p {
     font-size: 1.8rem;
   }
-}
-
-@media screen and (max-width: 1200px) {
-  #hero .container {
-    margin-top: 5.375rem;
-    margin-bottom: 5.375rem;
-  }
-  #hero section h1 {
-    font-size: 4rem;
-  }  
-  #hero section p {
-    font-size: 1.8rem;
+  #hero .img-container #canvas {
+    width: 80%;
+    height: 80%;
+    margin-top: 2.313rem;
+    margin-left: 2.5rem;
   }
 }
 
