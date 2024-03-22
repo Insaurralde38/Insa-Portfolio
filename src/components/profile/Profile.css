@@ -115,6 +115,19 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  #hero .container {
+    margin-top: 5.375rem;
+    margin-bottom: 5.375rem;
+  }
+  #hero section h1 {
+    font-size: 4rem;
+  }  
+  #hero section p {
+    font-size: 1.8rem;
+  }
+}
+
 @media screen and (max-width: 992px) {
   #hero .img-container {
     max-width: none;
