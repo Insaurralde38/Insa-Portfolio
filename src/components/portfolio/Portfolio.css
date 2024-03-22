@@ -118,3 +118,11 @@ transition: 0.4s all ease-in-out;
     font-size: 2rem;
   }
 }
+
+@media screen and (max-width: 576px) {
+  #portfolio .project {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}

@@ -93,3 +93,9 @@ header #header .navbar-toggler-icon {
     font-size: 1.5em;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .container .logo {
+    margin-top: 0.8rem;
+  }
+}
