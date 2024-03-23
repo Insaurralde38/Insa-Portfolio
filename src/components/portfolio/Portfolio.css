@@ -123,8 +123,7 @@ transition: 0.4s all ease-in-out;
 @media screen and (max-width: 576px) {
   #portfolio {
     margin-top: -6rem;
-  }
-  
+  }  
   #portfolio .project {
     margin-left: 0.5rem;
     margin-right: 0.5rem;

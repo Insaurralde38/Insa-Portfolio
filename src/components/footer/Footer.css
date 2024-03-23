@@ -70,13 +70,11 @@
   #footer .row {
     flex-direction: row;
   }
-
   #footer .row div:first-child {
     text-align: left;
     order: 1;
     margin-bottom: 0;
   }
-
   #footer .row div:last-child {
     text-align: right;
     margin-top: 0;
@@ -88,8 +86,7 @@
   #footer .row div:first-child {
     font-size: 0.87rem;
     margin-top: 1rem;
-  }
-  
+  }  
   #footer .row div:first-child .chimp {
     display: block;
     margin: 0 auto;
@@ -97,7 +94,6 @@
     width: 4rem;
     margin-top: 1rem;
   }
-
   #footer .row div:last-child {
     margin-top: 1rem;
   }
@@ -108,9 +104,22 @@
     margin-top: 0rem;
     font-size: 2.75rem;
   }
-
   #footer .row div:last-child svg {
     height: 2.75rem;
     width: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #footer .row div:first-child {
+    font-size: 0.72rem;
+  }
+  #footer .row div:last-child {
+    margin-top: -1rem;
+    font-size: 2.5rem;
+  }
+  #footer .row div:last-child svg {
+    height: 2.5rem;
+    width: 2.5rem;
   }
 }

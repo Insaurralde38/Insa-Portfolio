@@ -103,3 +103,15 @@ button.btn[disabled] {
     margin-top: -2rem;
   }
 }
+
+@media screen and (max-width: 320px) {
+  #contact .hello span {
+    font-size: 1.3rem;
+  }
+  #contact .more_info p {
+    font-size: 1rem;
+  }
+  #contact .custom-color {
+    font-size: 1.2rem;
+  }
+}
