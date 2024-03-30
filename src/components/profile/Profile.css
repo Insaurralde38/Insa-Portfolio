@@ -59,7 +59,7 @@
   width: 100%;
   aspect-ratio: 1;
   position: relative;
-  margin-left: auto;
+  margin-left: 5rem;
   margin-right: auto;
   max-width: 35.5rem;
 }
@@ -120,8 +120,10 @@
   #hero .img-container #canvas {
     width: 80%;
     height: 80%;
-    margin-top: 2.313rem;
-    margin-left: 2.5rem;
+  }
+  #hero .img-container #canvas {
+    margin-left: 1.563rem;
+    margin-top: 1.563rem;
   }
 }
 
@@ -134,7 +136,6 @@
   #hero .img-container #canvas {
     width: 85%;
     height: 85%;
-    margin-left: 2.5rem;
   }
 }
 
@@ -169,6 +170,10 @@
     margin-top: 0rem;
     margin-left: 0rem;
   }
+  #hero .img-container #canvas {
+    margin-left: 1.563rem;
+    margin-top: 1.563rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -192,9 +197,5 @@
   #hero section .social-links a svg {
     width: 2.2rem;
     height: 2.2rem;
-  }
-  #hero .img-container {
-    margin-top: -1rem;
-    margin-left: 0rem;
   }
 }
