@@ -3,6 +3,7 @@
   margin-bottom: 6.625rem;
 }
 
+
 #hero section h1 {
   font-family: 'Doctor Glitch', sans-serif;
   font-size: 5.4rem;
@@ -109,7 +110,8 @@
     margin-bottom: 2rem;
   }
   #hero section {
-    margin-top: -2rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
   }
   #hero section h1 {
     font-size: 4rem;
@@ -117,13 +119,9 @@
   #hero section p {
     font-size: 1.8rem;
   }
-  #hero .img-container #canvas {
+  #hero .img-container {
     width: 80%;
-    height: 80%;
-  }
-  #hero .img-container #canvas {
-    margin-left: 1.563rem;
-    margin-top: 1.563rem;
+    margin-top: 2.313rem;
   }
 }
 
