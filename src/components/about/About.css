@@ -121,7 +121,7 @@
 
 @media screen and (max-width: 320px) {
   #about .container {
-    margin-top: -5.5rem;
+    margin-top: 5rem;
     height: 80rem;
   }
   #about #about_section h1 {
