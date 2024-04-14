@@ -3,7 +3,6 @@
   margin-bottom: 6.625rem;
 }
 
-
 #hero section h1 {
   font-family: 'Doctor Glitch', sans-serif;
   font-size: 5.4rem;
@@ -145,10 +144,14 @@
 
 @media screen and (max-width: 576px) {
   #hero {
-    margin-bottom: -5rem;
+    margin-bottom: -4rem;
   }
   #hero .container {
-    margin-top: 3rem;
+    display: grid;
+    justify-content: center;
+  }
+  #hero section {
+    margin-left: 0rem;
   }
   #hero section h1 {
     font-size: 2.5rem;
@@ -165,12 +168,12 @@
     margin-top: 0.9rem;
   }
   #hero .img-container {
-    margin-top: 0rem;
-    margin-left: 0rem;
+    margin-top: 2rem;
+    margin-left: 2.094rem;
   }
   #hero .img-container #canvas {
-    margin-left: 1.563rem;
-    margin-top: 1.563rem;
+    width: 100%;
+    height: 100%;
   }
 }
 
