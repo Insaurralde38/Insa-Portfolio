@@ -1,5 +1,5 @@
 import './About.css'
-import { astro, audition, bootstrap, csharp, css, express, git, github, html, illustrator, javascript, materialui, next, node, office, photoshop, postgresql, react, redux, sass, sequelize, sqlite, tailwind, typescript, vite } from '../../assets/index'
+import { astro, audition, bootstrap, csharp, css, express, git, github, gitGithub, html, illustrator, javascript, materialui, next, node, office, photoshop, postgresql, react, redux, sass, sequelize, sqlite, tailwind, typescript, vite } from '../../assets/index'
 
 function About() {
   return (
@@ -43,8 +43,23 @@ function About() {
                   <span>CSS3</span>
                 </div>
                 <div className="col-6 col-md-4">
+                  <img src={ typescript } alt="typescript" />
+                  <span>TypeScript</span>
+                </div>
+                <div className="col-6 col-md-4">
                   <img src={ react } alt="react" />
-                  <span>React</span>
+                  <div style={{display: 'grid'}}>
+                    <span>React</span>
+                    <span>React Native</span>
+                  </div>
+                </div>
+                <div className="col-6 col-md-4">
+                  <img src={ tailwind } alt="tailwind" />
+                  <span>Tailwind CSS</span>
+                </div>
+                <div className="col-6 col-md-4">
+                  <img src={ node } alt="node" />
+                  <span>Node</span>
                 </div>
                 <div className="col-6 col-md-4">
                   <img src={ redux } alt="redux" />
@@ -53,10 +68,6 @@ function About() {
                 <div className="col-6 col-md-4">
                   <img src={ bootstrap } alt="bootstrap" />
                   <span>Bootstrap</span>
-                </div>
-                <div className="col-6 col-md-4">
-                  <img src={ node } alt="node" />
-                  <span>Node</span>
                 </div>
                 <div className="col-6 col-md-4">
                   <img src={ sequelize } alt="sequelize" />
@@ -71,16 +82,11 @@ function About() {
                   <span>PostgreSQL</span>
                 </div>
                 <div className="col-6 col-md-4">
-                  <img src={ sqlite } alt="sqlite" />
-                  <span>SQLite</span>
-                </div>
-                <div className="col-6 col-md-4">
-                  <img src={ git } alt="git" />
-                  <span>Git</span>
-                </div>
-                <div className="col-6 col-md-4">
-                  <img src={ github } alt="github" />
-                  <span>Github</span>
+                  <img src={ gitGithub } alt="git-github" />
+                  <div style={{display: 'grid'}}>
+                    <span>Git</span>
+                    <span>Github</span>
+                  </div>
                 </div>
                 <div className="col-6 col-md-4">
                   <img src={ photoshop } alt="photoshop" />
