@@ -1,19 +1,20 @@
 #footer {
   background-color: #103F79;
   padding: 2.5rem;
+  margin-top: 139px;
 }
 
 #footer .row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 #footer .row div:first-child {
   color: #F3B229;
-  text-align: center;
+  text-align: left;
   font-size: 1.1rem;
   font-family: 'Raleway', sans-serif;
-  order: 2;
+  order: 1;
   margin-top: 0.7rem;
 }
 
@@ -36,10 +37,10 @@
 }
 
 #footer .row div:last-child {
-  margin-top: 2rem;
+  margin-top: 0;
   text-align: right;
   font-size: 2rem;
-  order: 1;
+  order: 2;
 }
 
 #footer .row div:last-child a {
@@ -66,60 +67,92 @@
   margin-right: 2rem;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 721px) and (max-width: 1366px) {
+  #footer {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (min-width: 571px) and (max-width: 720px) {
+  #footer {
+    margin-top: 45px;
+    padding-top: 0px;
+    padding-bottom: 16px;
+  }
   #footer .row {
-    flex-direction: row;
+    justify-content: center;
   }
   #footer .row div:first-child {
-    text-align: left;
-    order: 1;
-    margin-bottom: 0;
-  }
-  #footer .row div:last-child {
-    text-align: right;
-    margin-top: 0;
     order: 2;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #footer .row div:first-child {
+    text-align: center;
     font-size: 0.87rem;
-    margin-top: 1rem;
-  }  
-  #footer .row div:first-child .chimp {
-    display: block;
-    margin: 0 auto;
-    height: 4rem;
-    width: 4rem;
-    margin-top: 1rem;
+    margin-top: 16px;
   }
   #footer .row div:last-child {
-    margin-top: 1rem;
+    order: 1;
+    margin-top: 16px;
   }
 }
 
-@media screen and (max-width: 576px) {
-  #footer .row div:last-child {
-    margin-top: 0rem;
-    font-size: 2.75rem;
+@media screen and (min-width: 361px) and (max-width: 570px) {
+  #footer {
+    margin-top: 46px;
+    padding-top: 0px;
+    padding-bottom: 16px;
   }
-  #footer .row div:last-child svg {
-    height: 2.75rem;
-    width: 2.75rem;
+  #footer .row {
+    justify-content: center;
+  }
+  #footer .row div:first-child {
+    order: 2;
+    text-align: center;
+    font-size: 0.87rem;
+    margin-top: 16px;
+  }
+  #footer .row div:last-child {
+    order: 1;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  #footer {
+    margin-top: 45px;
+    padding-top: 0px;
+    padding-bottom: 16px;
+  }
+  #footer .row {
+    justify-content: center;
+  }
+  #footer .row div:first-child {
+    order: 2;
+    text-align: center;
+    font-size: 0.87rem;
+    margin-top: 16px;
+  }
+  #footer .row div:last-child {
+    order: 1;
+    margin-top: 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
+  #footer {
+    margin-top: 48px;
+    padding-top: 0px;
+    padding-bottom: 16px;
+  }
+  #footer .row {
+    justify-content: center;
+  }
   #footer .row div:first-child {
+    order: 2;
+    text-align: center;
     font-size: 0.72rem;
+    margin-top: 16px;
   }
   #footer .row div:last-child {
-    margin-top: -1rem;
-    font-size: 2.5rem;
-  }
-  #footer .row div:last-child svg {
-    height: 2.5rem;
-    width: 2.5rem;
+    order: 1;
+    margin-top: 16px;
   }
 }

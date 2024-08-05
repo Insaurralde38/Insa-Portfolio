@@ -1,7 +1,3 @@
-#portfolio {
-  margin-bottom: 5rem;
-}
-
 #portfolio h1 {
   font-family: 'Doctor Glitch', sans-serif;
   text-align: center;
@@ -46,6 +42,7 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
 }
 
 #portfolio .project .details .links_project {
@@ -90,6 +87,7 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
 }
 
 #portfolio .custom-btn {
@@ -105,28 +103,161 @@ transition: 0.4s all ease-in-out;
   transition: 0.4s all ease-in-out;
 }
 
-@media screen and (min-width: 992px) {
-  #portfolio .project .details p {
-    font-size: 1.5rem;
+@media screen and (min-width: 721px) and (max-width: 1366px) {
+  #portfolio .container {
+    margin-top: -64px;
   }
-  #portfolio p {
-    font-size: 1.5rem;
+  #portfolio .row {
+    margin-top: -32px;
+  }
+  #portfolio .custom-btn {
+    margin-top: -16px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 571px) and (max-width: 720px) {
+  #portfolio .container {
+    margin-top: -44px;
+  }
   #portfolio h1 {
     font-size: 2rem;
   }
+  #portfolio .row {
+    margin-top: -32px;
+  }
+  #portfolio .custom-btn {
+    margin-top: -32px;
+  }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 361px) and (max-width: 570px) {
   #portfolio {
-    margin-top: -6rem;
+    margin-top: -43px;
   }  
   #portfolio .project {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     margin-bottom: 1rem;
+  }
+  #portfolio h1 {
+    font-size: 2rem;
+  }
+  #portfolio .row {
+    margin-top: -32px;
+  }
+  #portfolio .custom-btn {
+    margin-top: -24px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  #portfolio {
+    margin-top: -45px;
+  }  
+  #portfolio .project {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  #portfolio h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  #portfolio .row {
+    margin-top: -24px;
+  }
+  #portfolio .project .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #portfolio .project .details > div.position-absolute {
+    width: 100%;
+    height: 78%;
+    display: flex;
+    align-items: center;
+    margin-top: -0.9rem;
+  }
+  #portfolio .project .details p {
+    height: 100%;
+    flex: 1;
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    font-size: 1.18rem;
+  }
+  #portfolio .project .details .links_project {
+    width: 2.25rem;
+    height: 4.75rem;
+    font-size: 1.5rem;
+    display: grid;
+    align-content: space-between;
+  }
+  #portfolio .project .details .links_project i {
+    margin-top: 0.75rem;
+    display: grid;
+  }
+  #portfolio .project .details .technology img {
+    width: 1.75rem;
+  }
+  #portfolio .custom-btn {
+    margin-top: -24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #portfolio {
+    margin-top: -41px;
+  }  
+  #portfolio .project {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  #portfolio h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  #portfolio .row {
+    margin-top: -24px;
+  }
+  #portfolio .project .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #portfolio .project .details > div.position-absolute {
+    width: 100%;
+    height: 78%;
+    display: flex;
+    align-items: center;
+    margin-top: -0.9rem;
+  }
+  #portfolio .project .details p {
+    height: 100%;
+    flex: 1;
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    font-size: 1.18rem;
+  }
+  #portfolio .project .details .links_project {
+    width: 2.25rem;
+    height: 4.75rem;
+    font-size: 1.5rem;
+    display: grid;
+    align-content: space-between;
+  }
+  #portfolio .project .details .links_project i {
+    margin-top: 0.75rem;
+    display: grid;
+  }
+  #portfolio .project .details .technology img {
+    width: 1.75rem;
+  }
+  #portfolio .custom-btn {
+    margin-top: -23px;
   }
 }

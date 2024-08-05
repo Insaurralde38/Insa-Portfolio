@@ -1,5 +1,6 @@
-#contact {
+#contact .container {
   margin-bottom: 2rem;
+  margin-top: 139px;
 }
 
 #contact h1 {
@@ -9,6 +10,10 @@
   font-size: 2.5rem;
   margin-top: 1rem;
   color: #444F5A
+}
+
+#contact .hello {
+  height: 21.75rem;
 }
 
 #contact .hello span {
@@ -52,66 +57,136 @@ button.btn[disabled] {
 
 .spinner-border {
   display: none;
-}  
+}
+
 #contact .custom-btn {
   background-color: #103F79;
   color: #F3B229;
 }
+
 #contact .custom-color {
   color: #103F79;
   font-size: 1.25rem;
 }
 
-@media screen and (min-width: 992px) {
-  #contact .container > .row {
-    height: min(500px, 95vh);
+@media screen and (min-width: 721px) and (max-width: 1366px) {
+  #contact .container {
+    margin-top: 45px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 571px) and (max-width: 720px) {
+  #contact .container {
+    height: 719px;
+    margin-top: 42px;
+  }
   #contact h1 {
     font-size: 2rem;
   }
   #contact .hello {
     text-align: center;
+    height: 173px;
+    margin-top: -16px;
+  }
+  #contact .contact_form {
+    margin-top: -8px;
   }
   #contact .hello span {
     font-size: 1.5rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  #contact .custom-btn {
+    margin-top: -22px;
   }
 }
 
-@media screen and (max-width: 576px) {
-  #contact {
-    margin-top: -2rem;
+@media screen and (min-width: 361px) and (max-width: 570px) {
+  #contact .container {
+    height: 719px;
+    margin-top: 43px;
   }
   #contact h1 {
     font-size: 2rem;
-    margin-bottom: 1.5rem;
   }
-  #contact .hello span {
-    font-size: 1.35rem;
-  }
-  #contact .more_info p {
-    font-size: 1.3rem;
-    margin-top: -2.5rem;
-    margin-bottom: 3rem;
-  }
-  #contact .custom-color {
-    font-size: 1.7rem;
+  #contact .hello {
+    text-align: center;
+    height: 172px;
+    margin-top: -16px;
   }
   #contact .contact_form {
-    margin-top: -2rem;
+    margin-top: -8px;
+  }
+  #contact .hello span {
+    font-size: 1.5rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  #contact .custom-btn {
+    margin-top: -22px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  #contact .container {
+    height: 716px;
+    margin-top: 41px;
+  }
+  #contact h1 {
+    font-size: 2.2rem;
+  }
+  #contact .hello {
+    text-align: center;
+    height: 165px;
+    margin-top: -16px;
+  }
+  #contact .contact_form {
+    margin-top: -8px;
+  }
   #contact .hello span {
     font-size: 1.3rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  #contact .hello p {
+    font-size: 1.08rem;
   }
   #contact .more_info p {
     font-size: 1rem;
   }
-  #contact .custom-color {
-    font-size: 1.2rem;
+  #contact .custom-btn {
+    margin-top: -22px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #contact .container {
+    height: 715px;
+    margin-top: 44px;
+  }
+  #contact h1 {
+    font-size: 2.2rem;
+  }
+  #contact .hello {
+    text-align: center;
+    height: 165px;
+    margin-top: -16px;
+  }
+  #contact .contact_form {
+    margin-top: -8px;
+  }
+  #contact .hello span {
+    font-size: 1.3rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  #contact .hello p {
+    font-size: 1.08rem;
+  }
+  #contact .more_info p {
+    font-size: 1rem;
+  }
+  #contact .custom-btn {
+    margin-top: -22px;
   }
 }

@@ -120,7 +120,7 @@ const Contact = () => {
             <div className="hello mb-4 mb-lg-0 col-12 col-lg-4 d-grid align-content-center" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" >
               <span>HAVE AN IDEA? 🤔</span>
               <p>Let's make it real! 🤓</p>
-              <div className="mt-5 more_info">
+              <div className="more_info">
                 <p><i className="bi bi-geo-alt custom-color me-2"></i>Buenos Aires, ARGENTINA ⭐⭐⭐</p>
                 <p><i className="bi bi-envelope-fill custom-color me-2"></i>djinsaurralde38@gmail.com</p>
               </div>

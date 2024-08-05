@@ -2,6 +2,8 @@
   align-items: center;
   display: flex;
   height: 58vh;
+  margin-bottom: 85px;
+  margin-top: -25px;
 }
 
 #about #about_section {
@@ -13,7 +15,7 @@
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2.5rem;
-  color: #444F5A
+  color: #444F5A;
 }
 
 #about #about_section p {
@@ -25,25 +27,21 @@
 }
 
 #about #skills_section {
-  @media screen and (min-width: 992px) {
-    margin-top: -17%;
-  }
-  @media screen and (min-width: 1200px) {
-    margin-top: 0;
-  }
+  margin-top: 0;
 }
 
 #about #skills_section h1 {
   font-family: 'Doctor Glitch', sans-serif;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   font-size: 2.5rem;
-  color: #444F5A
+  color: #444F5A;
 }
 
 #about #skills_section img {
   margin-left: 1rem;
-  height: 2rem;
+  height: 3rem;
   transition: 0.4s all ease-in-out;
 }
 
@@ -55,7 +53,7 @@
   font-style: italic;
   font-weight: 500;
   margin-left: 0.6rem;
-  color: #444F5A
+  color: #444F5A;
 }
 
 #about #skills_section .col-6 {
@@ -64,50 +62,40 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (min-width: 721px) and (max-width: 1366px) {
   #about .container {
     margin-bottom: 85px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  #about #skills_section img {
-    height: 3rem;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  #about .container > .row {
-    height: min(800px, 80vh);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  #about #about_section h1 {
-    font-size: 2rem;
-  }
-  #about #about_section p {
-    font-size: 1.07rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-  }
-  #about #skills_section h1 {
-    font-size: 2rem;
-  }
-  #about #skills_section img {
-    height: 2.5rem;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  #about .container {
-    align-items: center;
-    display:grid;
-    height: 88.5rem;
-    margin-top: 8rem;
+    height: 440px;
   }
   #about #about_section {
-    height: 45.5rem;
+    height: 440px;
+  }
+  #about #about_section p {
+    font-size: 1.15rem;
+    margin-right: 0rem;
+  }
+  #about #skills_section h1 {
+    margin-top: 0rem;
+  }
+}
+
+@media screen and (min-width: 571px) and (max-width: 720px) {
+  #about .container {
+    align-items: center;
+    display: grid;
+    height: 1134px;
+    margin-top: -67px;
+  }
+  #about #about_section {
+    height: 486px;
+  }
+  #about .col-12 {
+    margin-top: -48px;
+  }
+  #about #about_section h1,
+  #about #skills_section h1 {
+    margin-bottom: 16px;
+    margin-top: 0px;
   }
   #about #about_section p {
     font-size: 1.25rem;
@@ -115,30 +103,120 @@
     margin-left: 1rem;
   }
   #about #skills_section {
-    margin-top: -1rem;
+    height: 616px;
+    margin-top: 32px;
+  }
+  #about #skills_section .row {
+    margin-left: 27px;
+    margin-right: -24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 361px) and (max-width: 570px) {
   #about .container {
-    margin-top: 5rem;
-    height: 80rem;
-  }
-  #about #about_section h1 {
-    font-size: 2.2rem;
-    margin-bottom: 1.5rem;
-  }  
-  #about #about_section p {
-    font-size: 1.08rem;
+    align-items: center;
+    display: grid;
+    height: 1164px;
+    margin-top: -65px;
   }
   #about #about_section {
-    height: 39rem;
+    height: 516px;
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+  #about .col-12 {
+    margin-top: -48px;
+  }
+  #about #about_section h1,
+  #about #skills_section h1 {
+    margin-bottom: 16px;
+    margin-top: 0px;
+  }
+  #about #about_section p {
+    font-size: 1.25rem;
+    margin-right: 0px;
+  }
+  #about #skills_section {
+    height: 616px;
+    margin-top: 32px;
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+  #about #skills_section .row {
+    margin-left: -2px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  #about .container {
+    height: 1199px;
+    padding-top: 14px;
+    margin-top: -77px;
+  }
+  #about #about_section {
+    height: 557px;
+  }
+  #about #about_section p {
+    font-size: 1.08rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  #about .col-12 {
+    height: 41rem;
+  }  
+  #about #skills_section {
+    height: 610px;
+    margin-top: -34px;
+  }
+  #about #about_section h1,
+  #about #skills_section h1 {
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+    margin-top: 0;
   }
   #about #skills_section span {
     font-size: 0.8rem;
   }
   #about #skills_section .row {
+    margin-left: -13px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #about .container {
+    height: 1203px;
+    padding-top: 10px;
+    margin-top: 180px;
+  }
+  #about #about_section {
+    height: 556px;
+  }
+  #about #about_section h1,
+  #about #skills_section h1 {
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+    margin-top: 0;
+  }
+  #about #about_section p {
+    font-size: 1.08rem;
+    margin-left: 0.5rem;
     margin-right: 0.5rem;
-    margin-left: -0.1rem;
+  }
+  #about .col-12 {
+    height: 41rem;
+  }  
+  #about #skills_section {
+    height: 610px;
+    margin-top: -24px;
+  }
+  #about #skills_section span {
+    font-size: 0.8rem;
+  }
+  #about #skills_section .row {
+    margin-left: -14px;
+  }
+  #about #skills_section .col-md-4 {
+    padding: 0px 0px;
   }
 }

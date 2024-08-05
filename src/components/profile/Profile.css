@@ -24,7 +24,7 @@
 #hero section .social-links {
   width: 50%;
   min-width: 200px;
-  text-align: left;
+  text-align: center;
 }
 
 #hero section .social-links a {
@@ -102,7 +102,7 @@
   object-position: center;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (min-width: 721px) and (max-width: 1366px) {
   #hero .container {
     height: 31.938rem;
     margin-top: 0rem;
@@ -124,52 +124,28 @@
   }
 }
 
-@media screen and (max-width: 992px) {
-  #hero .img-container {
-    max-width: none;
-    margin-top: 2rem;
-    margin-left: 4rem;
+@media screen and (min-width: 571px) and (max-width: 720px) {
+  #hero {
+    margin-top: -5.5rem;
   }
-  #hero .img-container #canvas {
-    width: 85%;
-    height: 85%;
-  }
-}
-
-@media screen and (max-width: 768px) {  
   #hero section h1 {
     font-size: 4rem;
   }
-}
-
-@media screen and (max-width: 576px) {
-  #hero {
-    margin-bottom: -4rem;
-  }
-  #hero .container {
-    display: grid;
-    justify-content: center;
-  }
-  #hero section {
-    margin-left: 0rem;
-  }
-  #hero section h1 {
-    font-size: 2.5rem;
-  }
   #hero section p {
-    font-size: 1.2rem;
-  }
-  #hero section .social-links a i {
-    font-size: 2.5rem;
-  }
+    font-size: 1.8rem;
+  }  
+  #hero section .social-links {
+    width: 100%;
+    height: 4.5rem;
+    margin-top: -1rem;
+  }  
   #hero section .social-links a svg {
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-top: 0.9rem;
+    margin-top: 1.3rem;
   }
   #hero .img-container {
+    width: 80%;
     margin-top: 2rem;
-    margin-left: 2.094rem;
+    margin-left: 10%;
   }
   #hero .img-container #canvas {
     width: 100%;
@@ -177,7 +153,54 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 361px) and (max-width: 570px) {
+  #hero {
+    margin-top: -5.5rem;
+  }
+  #hero section {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  #hero section h1 {
+    font-size: 2.5rem;
+  }
+  #hero section p {
+    font-size: 1.2rem;
+  }
+  #hero section .social-links {
+    width: 100%;
+    height: 4rem;
+    margin-top: -1rem;
+  }
+  #hero section .social-links a i {
+    font-size: 2.5rem;
+  }
+  #hero section .social-links a svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+  }
+  #hero .img-container {
+    margin-top: 1.281rem;
+    width: 70%;
+    margin-left: 15%;
+  }
+  #hero .img-container #canvas {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  #hero {
+    margin-bottom: 0rem;
+  }
+  #hero .container {
+    display: grid;
+    justify-content: center;
+    height: 34rem;
+    margin-top: 0rem;
+  }
   #hero section h1 {
     font-size: 2.3rem;
     margin-bottom: 0.5rem;
@@ -195,8 +218,60 @@
   #hero section .social-links a svg {
     width: 2.2rem;
     height: 2.2rem;
+    margin-top: 0.8rem;
   }
   #hero .img-container {
-    margin-left: 1.656rem;
+    width: 80%;
+    margin-left: 9.75vw;
+  }
+  #hero .img-container #canvas {
+    width: 100%;
+    height: 100%;
+  }
+  #hero section p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #hero {
+    margin-bottom: -9.4rem;
+  }
+  #hero .container {
+    display: grid;
+    justify-content: center;
+    height: 34rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+  }
+  #hero section h1 {
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+  }
+  #hero #headline {
+    font-size: 1rem;
+  }
+  #hero section .social-links {
+    margin-top: -1rem;
+    width: 80%;
+  }
+  #hero section .social-links a i {
+    font-size: 2.2rem;
+  }
+  #hero section .social-links a svg {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-top: 0.8rem;
+  }
+  #hero .img-container {
+    width: 80%;
+    margin-left: 9.75vw;
+  }
+  #hero .img-container #canvas {
+    width: 100%;
+    height: 100%;
+  }
+  #hero section p {
+    font-size: 1.2rem;
   }
 }
