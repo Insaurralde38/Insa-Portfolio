@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import CV from '../../assets/CV.pdf'
+import CV from '../../assets/CV-DIEGO-INSAURRALDE.pdf'
 import './NavBar.css';
 
 function downloadCV() {
   const link = document.createElement('a');
   link.href = CV;
-  link.download = 'CV.pdf';
+  link.download = 'CV-DIEGO-INSAURRALDE.pdf';
   link.click();
 }
 
@@ -93,7 +93,7 @@ function NavBar() {
                 <a href="#contact" className={`nav-link ${activeSection === 'contact' && 'active'}`}>Contact</a>
               </li>
               <li className="nav-item">
-                <a href={CV} download="CV.pdf" onClick={(e) => { e.preventDefault(); downloadCV(); }}  title="Download my CV" className="nav-link">CV <i className="bi bi-file-arrow-down"></i></a>
+                <a href={CV} download="CV-DIEGO-INSAURRALDE.pdf" onClick={(e) => { e.preventDefault(); downloadCV(); }}  title="Download my CV" className="nav-link">CV <i className="bi bi-file-arrow-down"></i></a>
               </li>
             </ul>
           </div>
