@@ -10,24 +10,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.11.0",
+    "@emailjs/browser": "^5.0.3",
     "aos": "^2.3.4",
-    "bootstrap-icons": "^1.11.1",
-    "curtainsjs": "^8.1.5",
-    "dotenv": "^16.3.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "bootstrap-icons": "^1.13.2",
+    "curtainsjs": "^8.1.6",
+    "dotenv": "^18.0.9",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "react-router-dom": "^7.18.4",
-    "typed.js": "^2.0.16"
+    "typed.js": "^3.0.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react-swc": "^3.3.2",
-    "eslint": "^8.45.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
+    "@eslint/js": "^9.39.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react-swc": "^4.3.3",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
     "vite": "^8.3.5"
   }
 }
